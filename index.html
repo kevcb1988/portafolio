@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <title>PWA Demo</title>
+
+  <!-- MetaEtiquetas para PWA  -->
+
+  <!-- Color de la app -->
+  <meta name="theme-color" content="#6c757d">
+  <!-- Optimización para movil -->
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
+  <!-- MetaEtiquetas paea iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <link rel="apple-touch-startup-image" href="img/favicon.png">
+  <!-- COnfiguración General PWA -->
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top container">
+          <a href="#" class="navbar-brand text-uppercase">KEVCB <small class="text-muted">portafolio</small></a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mt-1" id="menu">
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Desarrollos</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Portales Web</a>
+                  <a class="dropdown-item" href="#">App's</a>
+                  <a class="dropdown-item" href="#">E-learnings</a>
+                </div>
+              </li>
+
+              <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+
+            </ul>
+          </div>
+        </nav>
+      </div><!-- endContainer -->
+    </header>
+
+    <div class="separador"></div>
+
+    <main class="container">
+
+      <div class="jumbotron jumbotron-fluid mt-2">
+        <div class="container text-center text-uppercase" id="containerTitle">
+          <h1 class="title">Desarrollador</h1>
+          <p class="lead">WEB • APP • E-LEARNING</p>
+        </div>
+      </div>
+
+      <section id="servicios">
+
+        <div class="row">
+          <div class="col-12 col-md-4 text-center service">
+            <img class="iconServices" src="img/1.png" alt="">
+            <h5 class="titleServices">Web</h5>
+            <p class="descriptionServices">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta praesentium a dolorum velit sapiente mollitia illum nesciunt, quas dignissimos aut.</p>
+            <button type="button" class="btn btn-dark btn-sm">Conoce los portales</button>
+          </div>
+
+          <div class="col-12 col-md-4 text-center service">
+            <img class="iconServices" src="img/2.png" alt="">
+            <h5 class="titleServices">App</h5>
+            <p class="descriptionServices">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta praesentium a dolorum velit sapiente mollitia illum nesciunt, quas dignissimos aut.</p>
+            <button type="button" class="btn btn-dark btn-sm">Conoce las app</button>
+          </div>
+
+          <div class="col-12 col-md-4 text-center service">
+            <img class="iconServices" src="img/3.png" alt="">
+            <h5 class="titleServices">E-learning</h5>
+            <p class="descriptionServices">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta praesentium a dolorum velit sapiente mollitia illum nesciunt, quas dignissimos aut.</p>
+            <button type="button" class="btn btn-dark btn-sm">Conoce los E-learnings</button>
+          </div>
+        </div>
+      </section><!-- endServicios -->
+
+    </main>
+
+    <footer id="dateFooter" class="bg-dark mb-0 py-3">
+      <div id="socialNetworks">
+        <a href="#" class="m-1"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="#" class="m-1"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#" class="m-1"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="#" class="m-1"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+      <p class="mb-0">Keven Chaparro • Tel. 317 6373730<br>Bogotá, Colombia &copy; 2018</p>
+    </footer>
+
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
