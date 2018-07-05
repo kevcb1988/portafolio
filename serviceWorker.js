@@ -43,7 +43,7 @@ self.addEventListener('install', e => {
                           self.skipWaiting();
                         });
           })
-          .catch(error => console.log('No se han almacenado los ellemtos en el cache', error))
+          .catch(error => console.log('No se han almacenado los elementos en el cache', error))
   );
 });
 
